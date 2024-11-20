@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+main {
+    padding: 1rem;
+}
+form {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+form input, form select, form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+#expense-list {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#expenses {
+    list-style: none;
+    padding: 0;
+}
+#expenses li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
